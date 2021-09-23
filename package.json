@@ -1,5 +1,5 @@
 {
-  "name": "bepswap-sdk",
+  "name": "thorchain-multichain-sdk",
   "version": "1.0.0",
   "description": "Javascript SDK for Thorchain BEPSwap",
   "keywords": [
@@ -36,7 +36,7 @@
     "@xchainjs/xchain-thorchain": "^0.10.0",
     "@xchainjs/xchain-util": "^0.2.2",
     "bignumber.js": "^9.0.1",
-    "midgard-sdk-v2": "git+https://github.com/skyorion427/midgard-sdk-v2.git",
+    "midgard-sdk-v2": "git+https://github.com/skyorion427/midgard-sdk-old.git",
     "tiny-invariant": "^1.1.0"
   },
   "devDependencies": {
@@ -81,5 +81,13 @@
   ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abubakar672/THORChain-Multichain-SDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abubakar672/THORChain-Multichain-SDK/issues"
+  },
+  "homepage": "https://github.com/Abubakar672/THORChain-Multichain-SDK#readme"
 }
